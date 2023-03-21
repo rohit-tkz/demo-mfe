@@ -76,6 +76,7 @@ module.exports = {
       filename: "remoteEntry.js",
       exposes: {
         "./demo": "./src/App.jsx",
+        "./main": "./src/components/pages/MainLayout.js",
       },
       remotes: {
         McpContainer: `McpContainer@${CONTAINER_APP_URL}remoteEntry.js`,

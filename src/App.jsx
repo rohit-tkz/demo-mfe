@@ -19,9 +19,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <h1>This App</h1> */}
-      <MainLayout />
+      </header> */}
+      <h1>This App</h1>
+      {/* <MainLayout /> */}
     </div>
   );
 }
